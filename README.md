@@ -11,7 +11,7 @@ The difference with Pytorch Neural Symbolic Machines:
 - python 3.8.10
 - pytorch 1.9.0
 - You should install package related to [Tabert](https://github.com/facebookresearch/TaBERT), [Pytorch Neural Symbolic Machine](https://github.com/pcyin/pytorch_neural_symbolic_machines) and [CRF2o](https://github.com/yzhangcs/parser)
-- A workstation with 128 GB of RAM and 2 RTX 3090 GPU
+- A workstation with 128 GB of RAM and 2 RTX 3090 GPUs
 
 ### Dataset Preparation
 - Firstly, you should download the dataset from [the official website of Tabfact](https://tabfact.github.io/), then preprocess it with our script SASP/table/tabfact/preprocess_example.py. Or just use the preprocessed data under SASP/data/tabfact/data_shard
