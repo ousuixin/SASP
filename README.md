@@ -15,8 +15,8 @@ The difference with Pytorch Neural Symbolic Machines:
 
 ### Dataset Preparation
 - Firstly, you should download the dataset from [the official website of Tabfact](https://tabfact.github.io/), then preprocess it with our script SASP/table/tabfact/preprocess_example.py. Or just use the preprocessed data under SASP/data/tabfact/data_shard
-- Secondly, generate the operation oriented tree with the script SASP/table/tabfact/gen_with_func.py
-- Thirdly, sample some examples in our paper to bootstrap SASP with the script SASP/table/random_explore.py
+- Secondly, generate the operation oriented tree with the script SASP/table/tabfact/gen_with_func.py, or just use processed data inside data/tabfact/data_shard
+- Thirdly, sample some examples in our paper to bootstrap SASP with the script SASP/table/random_explore.py. Or just download [saved_program.jsonl](https://drive.google.com/file/d/1Gh4B66NWZ6rVGo8Oir2YJSfNBRmE2uIb/view?usp=sharing), and put it into data/tabfact/
 
 ### Training
 Run the following command under SASP/:
