@@ -31,6 +31,7 @@ Run the following command under SASP/:
 ```
 python -m table.experiments test --cuda --eval-batch-size=128 --eval-beam-size=4 --save-decode-to=runs/demo_run/test_result.json --model=./runs/demo_run/model.best.bin --test-file=data/tabfact/data_shard/test.jsonl --extra-config='{}'
 ```
+You can also download our [trained model](https://drive.google.com/file/d/1TyleYW54hLJp8ZaC13vD33BJQnVPvbnF/view?usp=sharing), and put it into runs/demo_run for testing.
 
 ### Reference
 Please consider citing the following papers if you are using our codebase.
