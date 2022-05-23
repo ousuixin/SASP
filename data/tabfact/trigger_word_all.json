@@ -1,0 +1,245 @@
+{
+  "filter_str_contain_not_any":[
+    "other than",
+    "not", "no", "never", "n't"
+  ],
+  "filter_not_eq":[
+    "other than",
+    "not", "no", "never", "n't"
+  ],
+  "is_none":[
+    "none", "neither",
+    "not", "no", "never", "n't"
+  ],
+  "not":[
+    "not", "no", "never", "n't"
+  ],
+  "filter_le": [
+    "at most",
+    "top"
+  ], 
+  "filter_ge": [
+    "at least"
+  ], 
+  "filter_less": [
+    "less", 
+    "sooner",
+    "faster",
+    "closer",
+    "earlier",
+    "lesser",
+    "smaller", 
+    "younger",
+    "worse",
+    "shorter",
+    "fewer",
+    "lower",
+    "behind",
+    "below", 
+    "before", 
+    "under"
+  ], 
+  "filter_greater": [
+    "longer",
+    "taller",
+    "older",
+    "more", 
+    "greater",
+    "larger",
+    "slower",
+    "bigger",
+    "better",
+    "higher",
+    "faster",
+    "later",
+    "above", 
+    "over",
+    "after"
+  ],   
+  "row_le": [
+    "at most"
+  ],
+  "le": [
+    "at most"
+  ],
+  "row_ge": [
+    "at least"
+  ], 
+  "ge": [
+    "at least"
+  ], 
+  "row_less": [
+    "less", 
+    "sooner",
+    "faster",
+    "closer",
+    "earlier",
+    "lesser",
+    "smaller", 
+    "younger",
+    "worse",
+    "shorter",
+    "fewer",
+    "lower",
+    "behind",
+    "below", 
+    "before", 
+    "under"
+  ], 
+  "less": [
+    "less", 
+    "sooner",
+    "faster",
+    "closer",
+    "earlier",
+    "lesser",
+    "smaller", 
+    "younger",
+    "worse",
+    "shorter",
+    "fewer",
+    "lower",
+    "behind",
+    "below", 
+    "before", 
+    "under"
+  ], 
+  "row_greater": [
+    "longer",
+    "taller",
+    "older",
+    "more", 
+    "greater",
+    "larger",
+    "slower",
+    "bigger",
+    "better",
+    "higher",
+    "faster",
+    "later",
+    "above", 
+    "over",
+    "after"
+  ], 
+  "greater": [
+    "longer",
+    "taller",
+    "older",
+    "more", 
+    "greater",
+    "larger",
+    "slower",
+    "bigger",
+    "better",
+    "higher",
+    "faster",
+    "later",
+    "above", 
+    "over",
+    "after"
+  ], 
+  "same": [
+    "same"
+  ],
+  "diff": [
+    "difference", 
+    "gap"
+  ], 
+  "sum": [ 
+    "total", 
+    "sum", 
+    "summation"
+  ], 
+  "average": [
+    "average",
+    "avg",
+    "mean"
+  ], 
+  "argmax": [
+    "greatest",
+    "biggest",
+    "tallest",
+    "strongest",
+    "highest",
+    "longest", 
+    "largest", 
+    "oldest",
+    "most", 
+    "fastest",
+    "best", 
+    "latest",
+    "top",
+    "first",
+    "max", 
+    "maximum"
+  ], 
+  "argmin": [
+    "fewest",
+    "closest",
+    "earliest",
+    "smallest",
+    "lowest", 
+    "shortest",
+    "poorest",
+    "youngest",
+    "nearest",
+    "least", 
+    "slowest",
+    "worst", 
+    "latest",
+    "bottom", 
+    "last",
+    "minimum"
+  ], 
+  "maximum": [    
+    "greatest",
+    "biggest",
+    "tallest",
+    "strongest",
+    "highest",
+    "longest", 
+    "largest", 
+    "oldest",
+    "most", 
+    "fastest",
+    "best", 
+    "latest",
+    "top",
+    "first",
+    "max", 
+    "maximum"
+  ], 
+  "minimum": [
+    "fewest",
+    "closest",
+    "earliest",
+    "smallest",
+    "lowest", 
+    "shortest",
+    "poorest",
+    "youngest",
+    "nearest",
+    "least", 
+    "slowest",
+    "worst", 
+    "latest",
+    "bottom", 
+    "last",
+    "minimum"
+  ], 
+  "mode": [
+    "most",
+    "majority",
+    "main",
+    "usually"
+  ],
+  "only": [
+    "only"
+  ],
+  "all": [
+    "always",
+    "all",
+    "every",
+    "each"
+  ]
+}

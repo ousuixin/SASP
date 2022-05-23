@@ -21,14 +21,15 @@ The difference with Pytorch Neural Symbolic Machines:
 ### Training
 Run the following command under SASP/:
 ```
-python -m table.experiments train --seed=0 --config=data/config/config.vanilla_bert.json --work-dir=runs/demo_run
+python -m table.experiments train --seed=0 --cuda --config=data/config/config.vanilla_bert.json --work-dir=runs/demo_run --extra-config='{}'
+
 ```
 It will take around 20 hours.
 
 ### Testing
 Run the following command under SASP/:
 ```
-python -m table.experiments test --eval-batch-size=128 --eval-beam-size=15 --save-decode-to=runs/demo_run/test_result.json --model=./runs/demo_run/model.best.bin --test-file=data/tabfact/data_shard/test.jsonl --extra-config='{}'
+python -m table.experiments test --cuda --eval-batch-size=128 --eval-beam-size=4 --save-decode-to=runs/demo_run/test_result.json --model=./runs/demo_run/model.best.bin --test-file=data/tabfact/data_shard/test.jsonl --extra-config='{}'
 ```
 
 ### Reference
